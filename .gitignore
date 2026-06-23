@@ -1,0 +1,36 @@
+# CMake build artifacts
+/build/
+/CMakeCache.txt
+/CMakeFiles/
+/cmake_install.cmake
+/CTestTestfile.cmake
+/Testing/
+/compile_commands.json
+/*.dir/
+
+# Generated libraries and binaries
+*.a
+*.so
+*.dylib
+*.lib
+*.dll
+*.exe
+
+# Object and temporary files
+*.o
+*.obj
+*.lo
+*.tmp
+*.log
+*.swp
+*~
+
+# IDE/editor files
+.vscode/
+*.code-workspace
+*.sublime-project
+*.sublime-workspace
+
+# Generated test/config data
+App/config_file/config.txt
+*.bin
