@@ -1,0 +1,56 @@
+[
+{
+  "directory": "/home/quangppm/C-Assigments/build",
+  "command": "/usr/bin/gcc -I/home/quangppm/C-Assigments -I/home/quangppm/C-Assigments/App -I/home/quangppm/C-Assigments/ConfigManager -I/home/quangppm/C-Assigments/ErrorHandling -I/home/quangppm/C-Assigments/Logger -g -std=c11 -o CMakeFiles/project_lib.dir/ConfigManager/config_manager.c.o -c /home/quangppm/C-Assigments/ConfigManager/config_manager.c",
+  "file": "/home/quangppm/C-Assigments/ConfigManager/config_manager.c",
+  "output": "/home/quangppm/C-Assigments/build/CMakeFiles/project_lib.dir/ConfigManager/config_manager.c.o"
+},
+{
+  "directory": "/home/quangppm/C-Assigments/build",
+  "command": "/usr/bin/gcc -I/home/quangppm/C-Assigments -I/home/quangppm/C-Assigments/App -I/home/quangppm/C-Assigments/ConfigManager -I/home/quangppm/C-Assigments/ErrorHandling -I/home/quangppm/C-Assigments/Logger -g -std=c11 -o CMakeFiles/project_lib.dir/ErrorHandling/error_handling.c.o -c /home/quangppm/C-Assigments/ErrorHandling/error_handling.c",
+  "file": "/home/quangppm/C-Assigments/ErrorHandling/error_handling.c",
+  "output": "/home/quangppm/C-Assigments/build/CMakeFiles/project_lib.dir/ErrorHandling/error_handling.c.o"
+},
+{
+  "directory": "/home/quangppm/C-Assigments/build",
+  "command": "/usr/bin/gcc -I/home/quangppm/C-Assigments -I/home/quangppm/C-Assigments/App -I/home/quangppm/C-Assigments/ConfigManager -I/home/quangppm/C-Assigments/ErrorHandling -I/home/quangppm/C-Assigments/Logger -g -std=c11 -o CMakeFiles/project_lib.dir/Logger/logger.c.o -c /home/quangppm/C-Assigments/Logger/logger.c",
+  "file": "/home/quangppm/C-Assigments/Logger/logger.c",
+  "output": "/home/quangppm/C-Assigments/build/CMakeFiles/project_lib.dir/Logger/logger.c.o"
+},
+{
+  "directory": "/home/quangppm/C-Assigments/build",
+  "command": "/usr/bin/gcc -I/home/quangppm/C-Assigments -I/home/quangppm/C-Assigments/App -I/home/quangppm/C-Assigments/ConfigManager -I/home/quangppm/C-Assigments/ErrorHandling -I/home/quangppm/C-Assigments/Logger -g -std=c11 -o CMakeFiles/C_Assigments.dir/App/main.c.o -c /home/quangppm/C-Assigments/App/main.c",
+  "file": "/home/quangppm/C-Assigments/App/main.c",
+  "output": "/home/quangppm/C-Assigments/build/CMakeFiles/C_Assigments.dir/App/main.c.o"
+},
+{
+  "directory": "/home/quangppm/C-Assigments/build",
+  "command": "/usr/bin/g++ -I/home/quangppm/C-Assigments -I/home/quangppm/C-Assigments/App -I/home/quangppm/C-Assigments/ConfigManager -I/home/quangppm/C-Assigments/ErrorHandling -I/home/quangppm/C-Assigments/Logger -isystem /home/quangppm/C-Assigments/build/_deps/googletest-src/googletest/include -isystem /home/quangppm/C-Assigments/build/_deps/googletest-src/googletest -g -std=c++17 -o tests/CMakeFiles/project_tests.dir/unit_test.cpp.o -c /home/quangppm/C-Assigments/tests/unit_test.cpp",
+  "file": "/home/quangppm/C-Assigments/tests/unit_test.cpp",
+  "output": "/home/quangppm/C-Assigments/build/tests/CMakeFiles/project_tests.dir/unit_test.cpp.o"
+},
+{
+  "directory": "/home/quangppm/C-Assigments/build",
+  "command": "/usr/bin/g++ -I/home/quangppm/C-Assigments/build/_deps/googletest-src/googlemock/include -I/home/quangppm/C-Assigments/build/_deps/googletest-src/googlemock -isystem /home/quangppm/C-Assigments/build/_deps/googletest-src/googletest/include -isystem /home/quangppm/C-Assigments/build/_deps/googletest-src/googletest -g -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /home/quangppm/C-Assigments/build/_deps/googletest-src/googlemock/src/gmock-all.cc",
+  "file": "/home/quangppm/C-Assigments/build/_deps/googletest-src/googlemock/src/gmock-all.cc",
+  "output": "/home/quangppm/C-Assigments/build/_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o"
+},
+{
+  "directory": "/home/quangppm/C-Assigments/build",
+  "command": "/usr/bin/g++ -isystem /home/quangppm/C-Assigments/build/_deps/googletest-src/googlemock/include -isystem /home/quangppm/C-Assigments/build/_deps/googletest-src/googlemock -isystem /home/quangppm/C-Assigments/build/_deps/googletest-src/googletest/include -isystem /home/quangppm/C-Assigments/build/_deps/googletest-src/googletest -g -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /home/quangppm/C-Assigments/build/_deps/googletest-src/googlemock/src/gmock_main.cc",
+  "file": "/home/quangppm/C-Assigments/build/_deps/googletest-src/googlemock/src/gmock_main.cc",
+  "output": "/home/quangppm/C-Assigments/build/_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o"
+},
+{
+  "directory": "/home/quangppm/C-Assigments/build",
+  "command": "/usr/bin/g++ -I/home/quangppm/C-Assigments/build/_deps/googletest-src/googletest/include -I/home/quangppm/C-Assigments/build/_deps/googletest-src/googletest -g -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o _deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /home/quangppm/C-Assigments/build/_deps/googletest-src/googletest/src/gtest-all.cc",
+  "file": "/home/quangppm/C-Assigments/build/_deps/googletest-src/googletest/src/gtest-all.cc",
+  "output": "/home/quangppm/C-Assigments/build/_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
+},
+{
+  "directory": "/home/quangppm/C-Assigments/build",
+  "command": "/usr/bin/g++ -isystem /home/quangppm/C-Assigments/build/_deps/googletest-src/googletest/include -isystem /home/quangppm/C-Assigments/build/_deps/googletest-src/googletest -g -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /home/quangppm/C-Assigments/build/_deps/googletest-src/googletest/src/gtest_main.cc",
+  "file": "/home/quangppm/C-Assigments/build/_deps/googletest-src/googletest/src/gtest_main.cc",
+  "output": "/home/quangppm/C-Assigments/build/_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
+}
+]

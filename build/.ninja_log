@@ -1,0 +1,27 @@
+# ninja log v7
+7	42	1782224729004465941	CMakeFiles/C_Assigments.dir/App/main.c.o	4e46dd0384945944
+72	179	1782224729068174916	C_Assigments	462695b6ba5c270d
+7	23	1782224729003854906	CMakeFiles/project_lib.dir/ErrorHandling/error_handling.c.o	d6710c4e8ae9bcea
+7	44	1782224729004155256	CMakeFiles/project_lib.dir/Logger/logger.c.o	2285bff7a57539b
+6	52	1782224728998269444	CMakeFiles/project_lib.dir/ConfigManager/config_manager.c.o	9d2e032ee388e302
+52	72	1782224729048066283	libproject_lib.a	cb2f6542504a32ea
+3	1367	1782223730918195958	_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o	e33e033241c6396b
+4	1609	1782223730919221193	_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o	cf378c6fcbe153bb
+3	2550	1782223730917864869	_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o	3c426273cd304534
+1	4464	1782223730910397078	_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o	cecc828951c9ab0e
+2	99	1782223741578396016	lib/libgtest.a	164ca0d25561846e
+100	116	1782223741680803795	lib/libgtest_main.a	920c1c79617cdacb
+99	145	1782223741677780100	lib/libgmock.a	8d8caa28388a9743
+3	36	1782224356542191994	lib/libgmock_main.a	20fb8166cacb3791
+3	1169	1782224356538316086	tests/CMakeFiles/project_tests.dir/test_config_manager.cpp.o	c401321012d6270f
+72	394	1782224729387029133	tests/project_tests	8cbac145f23c91c9
+72	394	1782224729387029133	tests/project_tests[1]_tests.cmake	8cbac145f23c91c9
+72	394	1782224729387029133	/home/quangppm/C-Assigments/build/tests/project_tests[1]_tests.cmake	8cbac145f23c91c9
+5	1121	1782227270021941345	tests/CMakeFiles/project_tests.dir/unit_test.cpp.o	b79f49bac2638fac
+1121	1432	1782227271448855434	tests/project_tests	4e2ec095aaa63f
+1121	1432	1782227271448855434	tests/project_tests[1]_tests.cmake	4e2ec095aaa63f
+1121	1432	1782227271448855434	/home/quangppm/C-Assigments/build/tests/project_tests[1]_tests.cmake	4e2ec095aaa63f
+6	1241	1782228027569842624	tests/CMakeFiles/project_tests.dir/unit_test.cpp.o	b79f49bac2638fac
+1241	1562	1782228029128617302	tests/project_tests	4e2ec095aaa63f
+1241	1562	1782228029128617302	tests/project_tests[1]_tests.cmake	4e2ec095aaa63f
+1241	1562	1782228029128617302	/home/quangppm/C-Assigments/build/tests/project_tests[1]_tests.cmake	4e2ec095aaa63f

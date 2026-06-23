@@ -1,0 +1,5 @@
+if(EXISTS "/home/quangppm/C-Assigments/build/tests/project_tests[1]_tests.cmake")
+  include("/home/quangppm/C-Assigments/build/tests/project_tests[1]_tests.cmake")
+else()
+  add_test(project_tests_NOT_BUILT project_tests_NOT_BUILT)
+endif()

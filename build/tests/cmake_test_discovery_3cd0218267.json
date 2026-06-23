@@ -1,0 +1,27 @@
+{
+  "tests": 3,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "ProjectTest",
+      "tests": 3,
+      "testsuite": [
+        {
+          "name": "LoadConfigCreatesAndMapsFile",
+          "file": "\/home\/quangppm\/C-Assigments\/tests\/unit_test.cpp",
+          "line": 10
+        },
+        {
+          "name": "ModifyConfigAndSynchronize",
+          "file": "\/home\/quangppm\/C-Assigments\/tests\/unit_test.cpp",
+          "line": 26
+        },
+        {
+          "name": "PermissionDeniedOnReadOnlyFile",
+          "file": "\/home\/quangppm\/C-Assigments\/tests\/unit_test.cpp",
+          "line": 57
+        }
+      ]
+    }
+  ]
+}

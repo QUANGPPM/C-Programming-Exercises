@@ -1,0 +1,11 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/quangppm/C-Assigments/build/cmake_install.cmake",
+		"/home/quangppm/C-Assigments/build/tests/cmake_install.cmake",
+		"/home/quangppm/C-Assigments/build/_deps/googletest-build/cmake_install.cmake",
+		"/home/quangppm/C-Assigments/build/_deps/googletest-build/googlemock/cmake_install.cmake",
+		"/home/quangppm/C-Assigments/build/_deps/googletest-build/googletest/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

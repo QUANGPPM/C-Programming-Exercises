@@ -1,0 +1,7 @@
+add_test([=[ProjectTest.LoadConfigCreatesAndMapsFile]=]  /home/quangppm/C-Assigments/build/tests/project_tests [==[--gtest_filter=ProjectTest.LoadConfigCreatesAndMapsFile]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[ProjectTest.LoadConfigCreatesAndMapsFile]=]  PROPERTIES DEF_SOURCE_LINE /home/quangppm/C-Assigments/tests/unit_test.cpp:10 WORKING_DIRECTORY /home/quangppm/C-Assigments/build/tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[ProjectTest.ModifyConfigAndSynchronize]=]  /home/quangppm/C-Assigments/build/tests/project_tests [==[--gtest_filter=ProjectTest.ModifyConfigAndSynchronize]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[ProjectTest.ModifyConfigAndSynchronize]=]  PROPERTIES DEF_SOURCE_LINE /home/quangppm/C-Assigments/tests/unit_test.cpp:26 WORKING_DIRECTORY /home/quangppm/C-Assigments/build/tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[ProjectTest.PermissionDeniedOnReadOnlyFile]=]  /home/quangppm/C-Assigments/build/tests/project_tests [==[--gtest_filter=ProjectTest.PermissionDeniedOnReadOnlyFile]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[ProjectTest.PermissionDeniedOnReadOnlyFile]=]  PROPERTIES DEF_SOURCE_LINE /home/quangppm/C-Assigments/tests/unit_test.cpp:57 WORKING_DIRECTORY /home/quangppm/C-Assigments/build/tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  project_tests_TESTS ProjectTest.LoadConfigCreatesAndMapsFile ProjectTest.ModifyConfigAndSynchronize ProjectTest.PermissionDeniedOnReadOnlyFile)

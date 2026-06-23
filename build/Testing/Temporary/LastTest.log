@@ -1,0 +1,36 @@
+Start testing: Jun 23 21:48 +07
+----------------------------------------------------------
+1/1 Testing: ConfigManagerTest.LoadConfigCreatesAndMapsFile
+1/1 Test: ConfigManagerTest.LoadConfigCreatesAndMapsFile
+Command: "/home/quangppm/C-Assigments/build/tests/project_tests" "--gtest_filter=ConfigManagerTest.LoadConfigCreatesAndMapsFile" "--gtest_also_run_disabled_tests"
+Directory: /home/quangppm/C-Assigments/build/tests
+"ConfigManagerTest.LoadConfigCreatesAndMapsFile" start time: Jun 23 21:48 +07
+Output:
+----------------------------------------------------------
+Running main() from /home/quangppm/C-Assigments/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ConfigManagerTest.LoadConfigCreatesAndMapsFile
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ConfigManagerTest
+[ RUN      ] ConfigManagerTest.LoadConfigCreatesAndMapsFile
+[0;32m[19485641][I][CONFIG MANAGER]: read struct: 
+current limit: 0.00
+velocity limit: 0.00
+pole pairs: 0
+is_calibrated: 0
+[0m
+[       OK ] ConfigManagerTest.LoadConfigCreatesAndMapsFile (0 ms)
+[----------] 1 test from ConfigManagerTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"ConfigManagerTest.LoadConfigCreatesAndMapsFile" end time: Jun 23 21:48 +07
+"ConfigManagerTest.LoadConfigCreatesAndMapsFile" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jun 23 21:48 +07

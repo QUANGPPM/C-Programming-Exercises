@@ -1,0 +1,21 @@
+# ninja log v7
+1	20	1782223366962445160	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	9f23b87c4e417029
+1	20	1782223366962445160	/home/quangppm/C-Assigments/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	9f23b87c4e417029
+21	1811	1782223368754444931	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	9ac50bce665675de
+21	1811	1782223368754444931	/home/quangppm/C-Assigments/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	9ac50bce665675de
+1811	1829	1782223368774444929	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	cd89ad1c4c80e5f0
+1811	1829	1782223368774444929	/home/quangppm/C-Assigments/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	cd89ad1c4c80e5f0
+1829	1847	1782223368790444927	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	c2b41b77a55b4de0
+1829	1847	1782223368790444927	/home/quangppm/C-Assigments/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	c2b41b77a55b4de0
+1847	1864	1782223368806444925	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	d9231baa3dea582
+1847	1864	1782223368806444925	/home/quangppm/C-Assigments/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	d9231baa3dea582
+1864	1880	1782223368822444923	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	3b3f6de9091f21d6
+1864	1880	1782223368822444923	/home/quangppm/C-Assigments/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	3b3f6de9091f21d6
+1881	1897	1782223368842444920	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	ab37672e49da66f
+1881	1897	1782223368842444920	/home/quangppm/C-Assigments/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	ab37672e49da66f
+1897	1913	1782223368858444917	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	a97290cfed84907
+1897	1913	1782223368858444917	/home/quangppm/C-Assigments/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	a97290cfed84907
+1913	1936	1782223368878444916	CMakeFiles/googletest-populate-complete	540aae0188988183
+1913	1936	1782223368878444916	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	540aae0188988183
+1913	1936	1782223368878444916	/home/quangppm/C-Assigments/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate-complete	540aae0188988183
+1913	1936	1782223368878444916	/home/quangppm/C-Assigments/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	540aae0188988183
