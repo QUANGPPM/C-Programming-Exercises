@@ -13,7 +13,7 @@
 *.so
 *.dylib
 *.lib
-*.dll
+*.dl
 *.exe
 
 # Object and temporary files
@@ -31,6 +31,4 @@
 *.sublime-project
 *.sublime-workspace
 
-# Generated test/config data
-App/config_file/config.txt
 *.bin
