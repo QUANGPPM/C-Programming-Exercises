@@ -1,6 +1,6 @@
 #ifndef DISPATCHER_H
 #define DISPATCHER_H
-#ifdef __cplusplus__
+#ifdef __cplusplus
 extern "C" {
 #endif
 #include <stdio.h>
@@ -19,7 +19,7 @@ typedef enum {
  */
 void execute_command(Command cmd_id, ...);
 
-#ifdef __cplusplus__
+#ifdef __cplusplus
 }
 #endif
 #endif
