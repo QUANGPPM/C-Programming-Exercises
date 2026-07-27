@@ -14,14 +14,14 @@ set(CMAKE_CXX_EXTENSIONS OFF) # Ensure compliance with the C++ standard
 # If you add new top-level subdirectories with source files, you would need to add
 # another 'file(GLOB ...)' line for that new directory.
 file(GLOB ROOT_SOURCE_FILES "${CMAKE_CURRENT_SOURCE_DIR}/*.cpp")
-file(GLOB GAME_ENGINE_SOURCE_FILES "${CMAKE_CURRENT_SOURCE_DIR}/game_engine/*.cpp")
+file(GLOB GAME_ENGINE_SOURCE_FILES "${CMAKE_CURRENT_SOURCE_DIR}/game_system/*.cpp")
 
 set(SOURCE_FILES ${ROOT_SOURCE_FILES} ${GAME_ENGINE_SOURCE_FILES})
 
 # Add directories containing header files (.hpp) to the search path
 include_directories(
-    ${CMAKE_CURRENT_SOURCE_DIR}/game_engine # To find Character.hpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/game_system # To find Character.hpp
 )
 
 # Create an executable named 'my_game_engine' from the found source files
-add_executable(my_game_engine ${SOURCE_FILES})
+add_executable(my_game ${SOURCE_FILES})

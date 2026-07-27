@@ -1,19 +1,25 @@
 #include "main.hpp"
-#include "Character.hpp"
+#include <iostream>
+
+
 
 int main() {
-    game_engine::Character hero = game_engine::Character("HERO", 1, 100);
-    game_engine::Character enemy = game_engine::Character("ENEMY", 1, 100);
-    game_engine::battle(hero, enemy, 100);
-    auto name = hero.getName();
-    std::cout << name << std::endl;
-
-    enemy.heal("Large");
-    auto health = enemy.getHealth();
-    std::cout << health << std::endl;
-    enemy.heal(10);
-    health = enemy.getHealth();
-    std::cout << health << std::endl;
+    game_system::ItemData hat = game_system::ItemData("Hat", 50);
+    game_system::ItemData sword = game_system::ItemData("Sword", 100);
     
+    game_system::Player ch1 = game_system::Player("Quang", 10);
+    
+    try {
+        ch1.buyItem(hat);
+    } catch (const std::exception& e) {
+        std::cerr << e.what() << '\n';
+    }
+    try {
+        game_system::ItemData newItem = game_system::parseItemData("Pains_10.0");
+        std::cout << newItem.getName() << std::endl;
+        std::cout << newItem.getRawPrice() << std::endl;
+    } catch (const std::exception& e) {
+        std::cerr << e.what() << '\n';
+    }
     return 0;
 }
